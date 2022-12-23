@@ -1,0 +1,13 @@
+---
+title: "scratch"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+rm(list = ls())
+library(tidyverse); library(data.table)
+theme_set(theme_minimal())
+```
+
